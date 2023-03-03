@@ -1,5 +1,3 @@
-# Desarrole un algoritmo donde me muestre la version de py
+# Desarrole un algoritmo para hallar el area de un circulo, el usario debe ingresar el radio
 
-import sys
-     # Ahora imprimimos sys junto a un punto y version, y ya saldria la version de python
-print(sys.version)
+import math # Importamos la biblioteca math
