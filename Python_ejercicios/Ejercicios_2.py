@@ -1,11 +1,4 @@
-# Desarrollar un algoritmo donde permita el ingreso de datos
-
-numeros = input("Ingrese los numeros: ") # Solicitamos numero al usuario
-numeros = [int(numero) for numero in numeros.split(",")] # Convertimos cadena de texto en una lista de numeros
-lista_cadenas = list(map(str, numeros)) # hacemos el proceso para convertir los numeros en "list"
-print("el de la list son", lista_cadenas) # mostramos la lista
-
-numeros = input("Ingrese los numeros: ") # Solicitamos numero al usuario
-numeros = [int(numero) for numero in numeros.split(",")]  # Convertimos cadena de texto en una lista de numeros
-lista_cadenas = tuple(map(str, numeros)) # hacemos el proceso para convertir los numeros en "tuple"
-print("el de tuple son: ",lista_cadenas) # mostramos el tuplee
+# Escriba un codigo de programacion en python donde me permiti imprimir y ultimo el primero y ultimo valor de la lista, for example:
+Lista = input("Ingresa los datos: ") # creamos el input para que el usario pónga sus datos
+convertir = Lista.split() # Hacemos el proceso para dividir cadenas usando "split"
+print("Tu primer dato es: " ,convertir[0],"," "tu ultimo dato es: ", convertir[-1]) # Imprimimos el primero y el ultimo dato
